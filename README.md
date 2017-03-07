@@ -1,36 +1,40 @@
 ## Project 4 : Website Performance Optimization
 
+###How to run the Project
+
+You can [download](https://github.com/aaqibkhaan/Project-4-CRP/archive/master.zip) it in your desktop and unzip it to see the files or you can clone it from <https://github.com/aaqibkhaan/Project-4-CRP.git> 
+
 ###Part 1: Optimize PageSpeed Insights score for index.html
 
-You can view the [Live Demo](www.added.com)
+You can view the [Live Demo](https://aaqibkhaan.github.io/Project-4-CRP)
 
 ####Results:
-1.Mobile : 93/100
-1.Desktop : 93/100
+* Mobile : 93/100
+* Desktop : 93/100
 
 ####Changes made in index.html
-1. Fonts loading using javaScript
-1. Sorting out the order of code i.e: Scripts at the bottom
-1. External script loading to async
-1. Minify Js and Css
-1. Redundant and unused styles removed
-1. Css inlined for better performance 
+* Fonts loading using javaScript
+* Sorting out the order of code i.e: Scripts at the bottom
+* External script loading to async
+* Minify Js and Css
+* Redundant and unused styles removed
+* Css inlined for better performance 
 
 ###Part 2: Optimize Frames per Second in pizza.html
 
-You can view the [Live Demo](www.added.com)
+You can view the [Live Demo](https://aaqibkhaan.github.io/Project-4-CRP/views/pizza.html)
 
 ####Results
-1. Time to resize pizza under 5ms.
-2. 60 fps
+* Time to resize pizza under 5ms.
+* 60 fps
 
 ####Changes made in pizza.html
-1. updatePositions() updated with memory efficient code.
-1. changePizzaSizes() calculating newWidth once in % .
-1. for() loops modified for better performance.
+* updatePositions() updated with memory efficient code.
+* changePizzaSizes() calculating newWidth once in % .
+* for() loops modified for better performance.
 
 ### Sources
 
-1. [Compress and minify Pictures](https://tinypng.com/)
-1.<http://www.willpeavy.com/minifier/>
-1.<>
+* <https://tinypng.com>
+* <http://www.willpeavy.com/minifier>
+* <https://jscompress.com>
