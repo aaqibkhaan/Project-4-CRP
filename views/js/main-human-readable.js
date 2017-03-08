@@ -492,9 +492,8 @@ var items = document.getElementsByClassName('mover');
 function updatePositions() {
   frame++;
 
-var top =  window.pageYOffset || window.scrollY;
+var top =  window.pageYOffset;
 // caching ScrollTop Position to be used in the below loop
- //var top =  document.body.scrollTop;
   window.performance.mark("mark_start_frame");
   var phaseArray = []; // Array for elements in the first loop
   
